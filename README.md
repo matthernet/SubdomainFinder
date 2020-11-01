@@ -18,11 +18,11 @@ Find subdomains by searching public certificate records
 
 Example of use: `./certificatesearch.sh "target"`
 
-The tool will create a file called "target-test" with the subdomains found
+The tool will create an output file called "target-test" with the subdomains found
 
 ### Notice:
 
-The tool will create temporary files for each target in the execution directory that will be removed after scanning ends
+The tool will create temporary files in the execution directory that will be removed after scanning ends
 
 ### Licensing:
 SpamChecker is licensed under the GNU General Public License version 3 (GNU GPL v3).
