@@ -1,4 +1,4 @@
-# SubdomainCertificate
+# SubdomainFinder
 
 [![GitHub release](https://img.shields.io/github/v/release/matthernet/SubdomainCertificate)](https://github.com/matthernet/SubdomainCertificate/releases/)
 
@@ -21,7 +21,7 @@
 Find subdomains by searching public certificate records
 
 ## Usage
-Example of use: `./certificatesearch.sh "target"`
+Example of use: `./certificatefinder.sh "target"`
 
 # Sources 
 - [crt.sh](https://crt.sh)
@@ -31,4 +31,4 @@ Example of use: `./certificatesearch.sh "target"`
 The tool will create temporary files in the execution directory that will be removed after scanning ends
 
 ### Licensing:
-SubdomainCertificate is licensed under the GNU General Public License version 3 (GNU GPL v3).
+CertificateFinder is licensed under the GNU General Public License version 3 (GNU GPL v3).
