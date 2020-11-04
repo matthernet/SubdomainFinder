@@ -18,7 +18,7 @@
 ```
 
 ## Description
-Find subdomains by searching public certificate records
+Find subdomains by searching public records
 
 ## Usage
 Example of use: `./certificatefinder.sh "target"`
