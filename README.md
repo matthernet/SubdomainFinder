@@ -14,14 +14,18 @@
 ```
 
 # SubdomainCertificate
+
+## Description
 Find subdomains by searching public certificate records
 
+## Usage
 Example of use: `./certificatesearch.sh "target"`
 
-The tool will create an output file called "target-test" with the subdomains found
+# Sources 
+- [crt.sh](https://crt.sh)
+- [bufferover](https://dns.bufferover.run)
 
 ### Notice:
-
 The tool will create temporary files in the execution directory that will be removed after scanning ends
 
 ### Licensing:
