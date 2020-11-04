@@ -10,6 +10,6 @@ cat data | grep $1 | cut -d '"' -f 2 | cut -d "," -f 2 | grep '[[:alpha:]]' >> c
 
 rm data
 
-cat cachelista | sort | uniq > $1-test
+cat cachelista | sort | uniq > $1-subdoms
 
 rm cachelista
