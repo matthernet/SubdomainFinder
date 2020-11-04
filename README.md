@@ -1,3 +1,8 @@
+# SubdomainCertificate
+
+[![GitHub release](https://img.shields.io/github/v/release/matthernet/SubdomainCertificate)](https://github.com/matthernet/SubdomainCertificate/releases/)
+
+
 ```shell
      __________
     | CRT      |
@@ -11,8 +16,6 @@
         |          |   |______  /   subdomain5.target.com
         |__________|          |/    subdomain6.target.com
 ```
-
-# SubdomainCertificate
 
 ## Description
 Find subdomains by searching public certificate records
