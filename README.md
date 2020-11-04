@@ -4,7 +4,7 @@
     |  ________|_
     | | SSL      |
     | |  ________|_
-    | | | HTTS     |    ______|\    subdomain1.target.com
+    | | | HTTPS    |    ______|\    subdomain1.target.com
     | | |          |   |        \   subdomain2.target.com
     | | |          |   |         \  subdomain3.target.com
     | | |          |   |         /  subdomain4.target.com
