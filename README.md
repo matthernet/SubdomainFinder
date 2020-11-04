@@ -2,9 +2,9 @@
      __________
     | CRT      |
     |  ________|_
-    | | KEY      |
+    | | SSL      |
     | |  ________|_
-    | | | SSL      |    ______|\    subdomain1.target.com
+    | | | HTTS     |    ______|\    subdomain1.target.com
     | | |          |   |        \   subdomain2.target.com
     | | |          |   |         \  subdomain3.target.com
     | | |          |   |         /  subdomain4.target.com
