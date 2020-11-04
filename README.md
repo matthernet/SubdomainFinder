@@ -5,12 +5,11 @@
     | | SSL      |
     | |  ________|_
     | | | HTTPS    |    ______|\    subdomain1.target.com
-    | | |          |   |        \   subdomain2.target.com
-    | | |          |   |         \  subdomain3.target.com
-    | | |          |   |         /  subdomain4.target.com
-    |_| |          |   |______  /   subdomain5.target.com
-      |_|          |          |/    subdomain6.target.com
-        |__________|
+    |_| |          |   |        \   subdomain2.target.com
+      | |          |   |         \  subdomain3.target.com
+      |_|          |   |         /  subdomain4.target.com
+        |          |   |______  /   subdomain5.target.com
+        |__________|          |/    subdomain6.target.com
 ```
 
 # SubdomainCertificate
