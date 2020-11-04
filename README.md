@@ -21,7 +21,7 @@
 Find subdomains by searching public records
 
 ## Usage
-Example of use: `./certificatefinder.sh "target"`
+Example of use: `./subdomainfinder.sh "target"`
 
 # Sources 
 - [crt.sh](https://crt.sh)
@@ -32,4 +32,4 @@ Example of use: `./certificatefinder.sh "target"`
 The tool will create temporary files in the execution directory that will be removed after scanning ends
 
 ### Licensing:
-CertificateFinder is licensed under the GNU General Public License version 3 (GNU GPL v3).
+SubdomainFinder is licensed under the GNU General Public License version 3 (GNU GPL v3).
