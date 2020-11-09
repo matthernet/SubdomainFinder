@@ -5,13 +5,20 @@
 echo "Searching subdomains for $1"
 
 {
-wget https://crt.sh/?Identity=%25.$1 -O data >&-
+wget https://crt.sh/?Identity=%25.$1 -O data
 
 cat data | grep -i '<TD><A' -B 1 | cut -d '<' -f 2 | grep $1 | cut -d '>' -f 2 >> cachelista
+
+
+wget https://api.hackertarget.com/hostsearch/?q=$1 -O data
+
+cat data | cut -d "," -f 1 >> cachelista
+
 
 wget https://dns.bufferover.run/dns?q=.$1 -O data
 
 cat data | grep $1 | cut -d '"' -f 2 | cut -d "," -f 2 | grep '[[:alpha:]]' >> cachelista
+
 
 wget https://subdomainfinder.c99.nl/scans/`date +%Y-%m-%d`/$1 -O data
 
