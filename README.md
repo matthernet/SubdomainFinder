@@ -14,7 +14,7 @@
 # SubdomainFinder
 
 [![GitHub release](https://img.shields.io/github/v/release/matthernet/SubdomainCertificate)](https://github.com/matthernet/SubdomainCertificate/releases/)
-[![License: GPL v3](https://img.shields.io/github/license/matthernet/SpamChecker)](https://img.shields.io/github/license/matthernet/SpamChecker)
+[![License: GPL v3](https://img.shields.io/github/license/matthernet/SubdomainFinder)](https://img.shields.io/github/license/matthernet/SubdomainFinder)
 
 ## Description
 Find subdomains by searching public records
