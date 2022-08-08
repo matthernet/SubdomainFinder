@@ -20,7 +20,7 @@
 Find subdomains by searching public records
 
 ## Usage
-Example of use: `./subdomainfinder.sh "target"`
+Example of use: `./subdomainfinder.sh target.com`
 
 # Sources 
 - [crt.sh](https://crt.sh)
