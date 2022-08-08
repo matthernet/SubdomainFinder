@@ -1,5 +1,7 @@
 #/bin/bash
 
+# SubdomainFinder v0.3.0
+
 if [ -z $1 ]; then
 	echo "Please specify a domain" && exit
 else
