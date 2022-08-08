@@ -24,7 +24,7 @@ Example of use: `./subdomainfinder.sh "target"`
 
 # Sources 
 - [crt.sh](https://crt.sh)
-- [bufferover](https://dns.bufferover.run)
+- [bufferover](https://tls.bufferover.run/) (The API requires a valid api-key, you can get one for free directly in the website)
 - [subdomainfinder](https://subdomainfinder.c99.nl)
 - [DNSdumpster](https://dnsdumpster.com)
 
