@@ -17,7 +17,7 @@
 [![License: GPL v3](https://img.shields.io/github/license/matthernet/SubdomainFinder)](https://img.shields.io/github/license/matthernet/SubdomainFinder)
 
 ## Description
-Find subdomains by searching public records
+Passive scan to find subdomains by searching public records
 
 ## Usage
 Example of use: `./subdomainfinder.sh target.com`
