@@ -20,7 +20,7 @@ else
 
     wget -d --header="x-api-key: <your api key here>" https://tls.bufferover.run/dns?q=.$1 -O data
 
-    cat data | grep $1 | cut -d '"' -f 2 | cut -d "," -f 4 | grep '[[:alpha:]]' >> cachelista
+    cat data | grep $1 | cut -d '"' -f 2 | cut -d "," -f 5 >> cachelista
 
 
     wget https://subdomainfinder.c99.nl/scans/`date +%Y-%m-%d`/$1 -O data
