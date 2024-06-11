@@ -27,6 +27,7 @@ Example of use: `./subdomainfinder.sh target.com`
 - [bufferover](https://tls.bufferover.run/) (The API requires a valid api-key, you can get one for free directly in the website)
 - [subdomainfinder](https://subdomainfinder.c99.nl)
 - [DNSdumpster](https://dnsdumpster.com)
+- [SSLmate](https://sslmate.com/ct_search_api/) (The API requires a valid api-key, if you want to make more that 100 request per hour, you can get one for free directly in the website)
 
 ### Notice:
 The tool will create temporary files in the execution directory that will be removed after scanning ends
