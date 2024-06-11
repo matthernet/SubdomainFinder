@@ -27,6 +27,10 @@ else
 
     cat data | grep -oP '(?<=<a).*?(?=</a>)' | grep noreferrer | cut -d ">" -f 2 >> cachelista
 
+    wget "https://api.certspotter.com/v1/issuances?domain=$1&include_subdomains=true&expand=dns_names" -O data
+
+    cat data | grep dns_names | cut -d "[" -f2 | cut -d "]" -f1 | tr ',' '\n' | tr -d '"' | grep -i juro | grep -v '*' >> cachelista
+
     rm data
 
     echo "Subdomains found for $1" > $1-subdoms
